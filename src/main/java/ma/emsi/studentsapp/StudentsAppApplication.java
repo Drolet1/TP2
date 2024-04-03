@@ -11,7 +11,7 @@ import java.util.List;
 
 @SpringBootApplication
 public class StudentsAppApplication implements CommandLineRunner {
-    @Autowired
+    @Autowired /*Injection de dépendance*/
     private ProductRepository productRepository;
     public static void main(String[] args) {
         SpringApplication.run(StudentsAppApplication.class, args);

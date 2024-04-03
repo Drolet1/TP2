@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*Data = Getters et Setters*/
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
 public class Product {

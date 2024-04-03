@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController //Format JSON
+@RestController //Format JSON, WebService
 public class ProductRestService {
     @Autowired
     private ProductRepository productRepository;

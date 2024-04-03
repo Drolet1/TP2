@@ -7,6 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
+/*Repository qui prend Product comme entity et Long comme type et ID de l'entity*/
 public interface ProductRepository extends JpaRepository<Product, Long> {
     List<Product> findByNameContains(String mc);
     List<Product> findByPriceGreaterThan(double price);
